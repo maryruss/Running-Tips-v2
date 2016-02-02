@@ -10,28 +10,50 @@ body{
 }
 
 .titleOfPage {
-  font-family: Verdana;
-  font-weight: bold;
-  font-size: 40px;
+  margin-left: 20px;
+  position: relative;
   height: 50px;
   width: 1300px;
   border: 5px solid SteelBlue;
   background-color: Coral;
   border-radius: 5%;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 40px;
   text-align: center;
-  margin-left: 20px;
+}
+
+.Left-Col{
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 4px solid cornflowerblue;
+  background-color: gainsboro;
+  height: 1000px;
+  width: 150px;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* Figure out how to make box size dependent on amt of content*/
 .middle-box{
-  font-size: 20px;
-  font-family: Verdana;
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
   height: 1000px;
   width: 700px;
-  border: 3px solid blue;
+  border: 4px solid blue;
+  border-radius: 10%;
   background-color: silver;
-  margin-left: 350px;
-  margin-top: 20px;
+  font-size: 20px;
+  font-family: Verdana;
   text-align: center;
 }
 
